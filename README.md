@@ -88,4 +88,4 @@ board.push(getNewCard(deckOfCards));
 board.push(getNewCard(deckOfCards));
 
 
-// Here we should write code for the programm here
+// Here we should write code for the programm
