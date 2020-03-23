@@ -89,3 +89,5 @@ board.push(getNewCard(deckOfCards));
 
 
 // Here we should write code for the programm
+
+'Hello World!'
