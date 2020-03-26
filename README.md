@@ -2,130 +2,129 @@
 // The Poker Game
 
 // a cards in the form of an objects
-let D2 = {mast:'D',item:'2',number:0};
-let C2 = {mast:'C',item:'2',number:0};
-let H2 = {mast:'H',item:'2',number:0};
-let S2 = {mast:'S',item:'2',number:0};
-let D3 = {mast:'D',item:'3',number:1};
-let C3 = {mast:'C',item:'3',number:1};
-let H3 = {mast:'H',item:'3',number:1};
-let S3 = {mast:'S',item:'3',number:1};
-let D4 = {mast:'D',item:'4',number:2};
-let C4 = {mast:'C',item:'4',number:2};
-let H4 = {mast:'H',item:'4',number:2};
-let S4 = {mast:'S',item:'4',number:2};
-let D5 = {mast:'D',item:'5',number:3};
-let C5 = {mast:'C',item:'5',number:3};
-let H5 = {mast:'H',item:'5',number:3};
-let S5 = {mast:'S',item:'5',number:3};
-let D6 = {mast:'D',item:'6',number:4};
-let C6 = {mast:'C',item:'6',number:4};
-let H6 = {mast:'H',item:'6',number:4};
-let S6 = {mast:'S',item:'6',number:4};
-let D7 = {mast:'D',item:'7',number:5};
-let C7 = {mast:'C',item:'7',number:5};
-let H7 = {mast:'H',item:'7',number:5};
-let S7 = {mast:'S',item:'7',number:5};
-let D8 = {mast:'D',item:'8',number:6};
-let C8 = {mast:'C',item:'8',number:6};
-let H8 = {mast:'H',item:'8',number:6};
-let S8 = {mast:'S',item:'8',number:6};
-let D9 = {mast:'D',item:'9',number:7};
-let C9 = {mast:'C',item:'9',number:7};
-let H9 = {mast:'H',item:'9',number:7};
-let S9 = {mast:'S',item:'9',number:7};
-let D10 = {mast:'D',item:'10',number:8};
-let C10 = {mast:'C',item:'10',number:8};
-let H10 = {mast:'H',item:'10',number:8};
-let S10 = {mast:'S',item:'10',number:8};
-let DJ = {mast:'D',item:'J',number:9};
-let CJ = {mast:'C',item:'J',number:9};
-let HJ = {mast:'H',item:'J',number:9};
-let SJ = {mast:'S',item:'J',number:9};
-let DQ = {mast:'D',item:'Q',number:10};
-let CQ = {mast:'C',item:'Q',number:10};
-let HQ = {mast:'H',item:'Q',number:10};
-let SQ = {mast:'S',item:'Q',number:10};
-let DK = {mast:'D',item:'K',number:11};
-let CK = {mast:'C',item:'K',number:11};
-let HK = {mast:'H',item:'K',number:11};
-let SK = {mast:'S',item:'K',number:11};
-let DA = {mast:'D',item:'A',number:12};
-let CA = {mast:'C',item:'A',number:12};
-let HA = {mast:'H',item:'A',number:12};
-let SA = {mast:'S',item:'A',number:12};
+  let D2 = {mast:'D',item:'2',number:0};
+  let C2 = {mast:'C',item:'2',number:0};
+  let H2 = {mast:'H',item:'2',number:0};
+  let S2 = {mast:'S',item:'2',number:0};
+  let D3 = {mast:'D',item:'3',number:1};
+  let C3 = {mast:'C',item:'3',number:1};
+  let H3 = {mast:'H',item:'3',number:1};
+  let S3 = {mast:'S',item:'3',number:1};
+  let D4 = {mast:'D',item:'4',number:2};
+  let C4 = {mast:'C',item:'4',number:2};
+  let H4 = {mast:'H',item:'4',number:2};
+  let S4 = {mast:'S',item:'4',number:2};
+  let D5 = {mast:'D',item:'5',number:3};
+  let C5 = {mast:'C',item:'5',number:3};
+  let H5 = {mast:'H',item:'5',number:3};
+  let S5 = {mast:'S',item:'5',number:3};
+  let D6 = {mast:'D',item:'6',number:4};
+  let C6 = {mast:'C',item:'6',number:4};
+  let H6 = {mast:'H',item:'6',number:4};
+  let S6 = {mast:'S',item:'6',number:4};
+  let D7 = {mast:'D',item:'7',number:5};
+  let C7 = {mast:'C',item:'7',number:5};
+  let H7 = {mast:'H',item:'7',number:5};
+  let S7 = {mast:'S',item:'7',number:5};
+  let D8 = {mast:'D',item:'8',number:6};
+  let C8 = {mast:'C',item:'8',number:6};
+  let H8 = {mast:'H',item:'8',number:6};
+  let S8 = {mast:'S',item:'8',number:6};
+  let D9 = {mast:'D',item:'9',number:7};
+  let C9 = {mast:'C',item:'9',number:7};
+  let H9 = {mast:'H',item:'9',number:7};
+  let S9 = {mast:'S',item:'9',number:7};
+  let D10 = {mast:'D',item:'10',number:8};
+  let C10 = {mast:'C',item:'10',number:8};
+  let H10 = {mast:'H',item:'10',number:8};
+  let S10 = {mast:'S',item:'10',number:8};
+  let DJ = {mast:'D',item:'J',number:9};
+  let CJ = {mast:'C',item:'J',number:9};
+  let HJ = {mast:'H',item:'J',number:9};
+  let SJ = {mast:'S',item:'J',number:9};
+  let DQ = {mast:'D',item:'Q',number:10};
+  let CQ = {mast:'C',item:'Q',number:10};
+  let HQ = {mast:'H',item:'Q',number:10};
+  let SQ = {mast:'S',item:'Q',number:10};
+  let DK = {mast:'D',item:'K',number:11};
+  let CK = {mast:'C',item:'K',number:11};
+  let HK = {mast:'H',item:'K',number:11};
+  let SK = {mast:'S',item:'K',number:11};
+  let DA = {mast:'D',item:'A',number:12};
+  let CA = {mast:'C',item:'A',number:12};
+  let HA = {mast:'H',item:'A',number:12};
+  let SA = {mast:'S',item:'A',number:12};
 
-let player1 = [];
-let player2 = [];
-let player3 = [];
-let player4 = [];
-let player5 = [];
-let board = [];
-let Winner = [];
+  let player1 = [];
+  let player2 = [];
+  let player3 = [];
+  let player4 = [];
+  let player5 = [];
+  let board = [];
+  let Winner = [];
 
 // a deck of cards in the form of an array
-let deckOfCards = [ D2, C2, H2, S2,
-                    D3, C3, H3, S3,
-                    D4, C4, H4, S4,
-                    D5, C5, H5, S5,
-                    D6, C6, H6, S6,
-                    D7, C7, H7, S7,
-                    D8, C8, H8, S8,
-                    D9, C9, H9, S9,
-                    D10,C10,H10,S10,
-                    DJ, CJ, HJ, SJ,
-                    DQ, CQ, HQ, SQ,
-                    DK, CK, HK, SK,
-                    DA, CA, HA, SA];
+  let deckOfCards = [ D2, C2, H2, S2,
+                      D3, C3, H3, S3,
+                      D4, C4, H4, S4,
+                      D5, C5, H5, S5,
+                      D6, C6, H6, S6,
+                      D7, C7, H7, S7,
+                      D8, C8, H8, S8,
+                      D9, C9, H9, S9,
+                      D10,C10,H10,S10,
+                      DJ, CJ, HJ, SJ,
+                      DQ, CQ, HQ, SQ,
+                      DK, CK, HK, SK,
+                      DA, CA, HA, SA];
 
 
 // method for get new card from the deck and return new array without pop cart
-let getNewCard = deckOfCards => {
-let rand = Math.round(Math.random() * (deckOfCards.length-1));
-let cart = deckOfCards[rand];
-//console.log(cart); // for debug
-deckOfCards.splice(rand, 1);
-return cart;
-};
+  let getNewCard = deckOfCards => {
+    let rand = Math.round(Math.random() * (deckOfCards.length-1));
+    let cart = deckOfCards[rand];
+    deckOfCards.splice(rand, 1);
+    return cart;
+  };
 
 
 // metod razdachi kart igrokam - 1 krug po 1 karte kajdomu
-let distributionOfCards = () => {
-player1.push(getNewCard(deckOfCards));
-player2.push(getNewCard(deckOfCards));
-player3.push(getNewCard(deckOfCards));
-player4.push(getNewCard(deckOfCards));
-player5.push(getNewCard(deckOfCards));
-};
+  let distributionOfCards = () => {
+    player1.push(getNewCard(deckOfCards));
+    player2.push(getNewCard(deckOfCards));
+    player3.push(getNewCard(deckOfCards));
+    player4.push(getNewCard(deckOfCards));
+    player5.push(getNewCard(deckOfCards));
+  };
 
 // We gave the players two cards
-distributionOfCards()
-distributionOfCards()
+  distributionOfCards()
+  distributionOfCards()
 
 // "In board will be 3 cards"
-board.push(getNewCard(deckOfCards));
-board.push(getNewCard(deckOfCards));
-board.push(getNewCard(deckOfCards));
+  board.push(getNewCard(deckOfCards));
+  board.push(getNewCard(deckOfCards));
+  board.push(getNewCard(deckOfCards));
 
 // metod for concatenation player cards & board cards
-let PlayerCombination = (PlayerArr,BoardArr) =>{
-let FullCombination = PlayerArr.concat(BoardArr)
-return FullCombination;
-}
+  let PlayerCombination = (PlayerArr,BoardArr) =>{
+    let FullCombination = PlayerArr.concat(BoardArr)
+    return FullCombination;
+  }
 
 // concatenation player cards & board cards
-let pl1 = PlayerCombination(player1,board);
-let pl2 = PlayerCombination(player2,board);
-let pl3 = PlayerCombination(player3,board);
-let pl4 = PlayerCombination(player4,board);
-let pl5 = PlayerCombination(player5,board);
-//console.log(pl1)
+  let pl1 = PlayerCombination(player1,board);
+  let pl2 = PlayerCombination(player2,board);
+  let pl3 = PlayerCombination(player3,board);
+  let pl4 = PlayerCombination(player4,board);
+  let pl5 = PlayerCombination(player5,board);
 
-let playerArr1 = [];
-let playerArr2 = [];
-let playerArr3 = [];
-let playerArr4 = [];
-let playerArr5 = [];
+
+  let playerArr1 = [];
+  let playerArr2 = [];
+  let playerArr3 = [];
+  let playerArr4 = [];
+  let playerArr5 = [];
 
 // metod get property 'numbers' from player cards
 let getNumber = (PA1) =>{
@@ -297,9 +296,7 @@ let compareArrEl = (arr/*mast*/,arr2/*item*/,arr3/*number*/) => {
     return Winner.push(Flush['Name'],Flush['number'])
     }
 
-    }
-
-    else{
+    } else {
 
 
     //One Pair combination
@@ -391,11 +388,11 @@ let compareArrEl = (arr/*mast*/,arr2/*item*/,arr3/*number*/) => {
     }
 }
 
-compareArrEl(playerArrMast1,playerArrItem1,playerArr1);
-compareArrEl(playerArrMast2,playerArrItem2,playerArr2);
-compareArrEl(playerArrMast3,playerArrItem3,playerArr3);
-compareArrEl(playerArrMast4,playerArrItem4,playerArr4);
-compareArrEl(playerArrMast5,playerArrItem5,playerArr5);
+  compareArrEl(playerArrMast1,playerArrItem1,playerArr1);
+  compareArrEl(playerArrMast2,playerArrItem2,playerArr2);
+  compareArrEl(playerArrMast3,playerArrItem3,playerArr3);
+  compareArrEl(playerArrMast4,playerArrItem4,playerArr4);
+  compareArrEl(playerArrMast5,playerArrItem5,playerArr5);
 
-console.log(naturalSort(Winner))
+  console.log(naturalSort(Winner))
 
